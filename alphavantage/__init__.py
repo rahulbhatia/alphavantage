@@ -17,4 +17,4 @@ API_KEY = os.environ.get('AV_API_KEY', None)
 if API_KEY is None:
     LOGGER.warning("Environment Variable AV_API_KEY not set")
 
-from timeseries import *
+from .timeseries import *
